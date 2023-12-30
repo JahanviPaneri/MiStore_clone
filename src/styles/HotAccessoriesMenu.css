@@ -1,0 +1,17 @@
+.HotAccessoriesMenu{
+    display: flex;
+    justify-content: center;
+}
+.HotAccessoriesLink{
+    color: rgb(94,94,94);
+    text-decoration: none;
+    margin: 1vmax;
+    padding: 0.5vmax 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+.HotAccessoriesLink:hover{
+    color: orangered;
+    text-decoration: none;
+    border-bottom: 1px solid orangered;
+}
